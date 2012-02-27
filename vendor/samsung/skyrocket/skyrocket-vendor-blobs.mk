@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/skyrocket/proprietary/bin/sec-ril:/system/bin/sec-ril \
     vendor/samsung/skyrocket/proprietary/bin/vold:/system/bin/vold \
     vendor/samsung/skyrocket/proprietary/bin/sh0:/system/bin/sh0 \
+    vendor/samsung/skyrocket/proprietary/bin/qmuxd:/system/bin/qmuxd \
     vendor/samsung/skyrocket/proprietary/etc/init.qcom.modem_links.sh:/system/etc/init.qcom.modem_links.sh \
     vendor/samsung/skyrocket/proprietary/etc/audio_effects.conf:/system/etc/audio_effects.conf \
     vendor/samsung/skyrocket/proprietary/etc/audio/LVVEFS_Rx_Configuration.txt:/system/etc/audio/LVVEFS_Rx_Configuration.txt \
@@ -82,6 +83,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/skyrocket/proprietary/lib/libril-qc-qmi-1.so:/system/lib/libril-qc-qmi-1.so \
     vendor/samsung/skyrocket/proprietary/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
     vendor/samsung/skyrocket/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
+    vendor/samsung/skyrocket/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
+    vendor/samsung/skyrocket/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
     vendor/samsung/skyrocket/proprietary/lib/hw/alsa.default.so:/system/lib/hw/alsa.default.so \
     vendor/samsung/skyrocket/proprietary/lib/hw/audio_policy.msm8660.so:/system/lib/hw/audio_policy.msm8660.so \
     vendor/samsung/skyrocket/proprietary/lib/hw/audio.primary.msm8660.so:/system/lib/hw/audio.primary.msm8660.so \

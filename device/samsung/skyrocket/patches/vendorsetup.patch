@@ -1,0 +1,7 @@
+--- vendor/ev/vendorsetup.sh	2012-02-26 15:26:02.655586657 -0800
++++ vendor/ev/vendorsetup.sh	2012-02-26 15:25:58.425139634 -0800
+@@ -9,3 +9,4 @@
+ add_lunch_combo ev_tenderloin-eng
+ add_lunch_combo ev_thundercls670-eng
+ add_lunch_combo ev_vivow-eng
++add_lunch_combo ev_skyrocket-eng
